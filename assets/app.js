@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const source = window.TQF_CONTENT;
 
   if (!source) {
@@ -103,10 +103,6 @@
         "Thai Association of Quantitative Analysts and Financial Engineers (TQF)",
       footerOriginal: "",
       sourcePage: "ข้อมูล",
-      committeeMembers: "กรรมการทั้งหมด",
-      officialPages: "จำนวนหน้า",
-      bylawSections: "หมวดข้อบังคับ",
-      pathwayModules: "หมวดความรู้",
       missionPoint: "พันธกิจ",
       priority: "ยุทธศาสตร์",
       boardSnapshot: "ภาพรวมคณะกรรมการ",
@@ -162,10 +158,6 @@
         "TQF",
       footerOriginal: "",
       sourcePage: "Information",
-      committeeMembers: "Committee members",
-      officialPages: "Official pages",
-      bylawSections: "Bylaw sections",
-      pathwayModules: "Pathway modules",
       missionPoint: "Mission",
       priority: "Priority",
       boardSnapshot: "Board snapshot",
@@ -192,6 +184,14 @@
       สมาชิก: "Member",
       "สมาชิกและเหรัญญิก": "Committee Member and Treasurer",
       "สมาชิกและนายทะเบียน": "Committee Member and Registrar",
+    };
+    const teamMemberImagesByIndex = {
+      0: "assets/team-pat.jpg",
+      2: "assets/team-anan.jpg",
+      3: "assets/team-ronnawat.jpg",
+      4: "assets/team-pasin.jpg",
+      5: "assets/team-theerasit.jpg",
+      10: "assets/team-foosin-tight.jpg",
     };
 
     const missionEn = [
@@ -291,46 +291,21 @@
 
     const activities = [
       {
-        date: "2025-10-05",
-        href: "quant-pathway.html",
-        categoryTh: "เส้นทางทักษะ",
-        categoryEn: "Learning Pathway",
-        titleTh: "เผยแพร่ Quant Pathway",
-        titleEn: "Quant Pathway Published",
-        copyTh: source.pages.quantPathway.introBody,
+        date: "2026-06-13",
+        href: "https://www.facebook.com/quantcornerthailand/posts/pfbid02doX219ecQiKE7ytU143ogfstQ11eiHJzfYHJNok3cSpEb2JvVxBCvuM2n3Xi5d2Bl",
+        imageSrc: "assets/hero-activities-quant.png",
+        categoryTh: "กิจกรรม",
+        categoryEn: "Event",
+        titleTh: "Weekend Vibe (Code): มาสร้าง Backtest ของตัวเองด้วย AI",
+        titleEn: "Weekend Vibe (Code): Build Your Own AI Backtest",
+        copyTh:
+          "เวิร์กช็อป 3 ชั่วโมง สำหรับใช้ AI ช่วยสร้าง backtest จากไอเดียการลงทุน จัดวันที่ 13 มิถุนายน 2026 เวลา 9:00 - 12:00 น. ที่ Starbucks ม.มหิดล พญาไท โดยลงทะเบียนผ่าน LINE OA.",
         copyEn:
-          "TQF published the Quant Pathway, organizing recommended knowledge areas into foundational, core, and specialized levels.",
-      },
-      {
-        date: "2025-08-30",
-        href: "team.html",
-        categoryTh: "คณะกรรมการ",
-        categoryEn: "Committee",
-        titleTh: "ประกาศรายชื่อคณะกรรมการสมาคม",
-        titleEn: "Committee Directory Published",
-        copyTh: `เผยแพร่รายชื่อคณะกรรมการสมาคมจำนวน ${source.pages.team.members.length} คน พร้อมตำแหน่งและคุณวุฒิที่ระบุไว้`,
-        copyEn: `The public committee page lists ${source.pages.team.members.length} board and committee members together with their published roles and qualifications.`,
-      },
-      {
-        date: "2025-08-30",
-        href: "about.html",
-        categoryTh: "สมาคม",
-        categoryEn: "Association",
-        titleTh: "ปรับปรุงข้อมูลวิสัยทัศน์ พันธกิจ และยุทธศาสตร์",
-        titleEn: "Association Profile Updated",
-        copyTh: "เผยแพร่ข้อมูลวิสัยทัศน์ พันธกิจ และยุทธศาสตร์ของสมาคมอย่างเป็นทางการ",
-        copyEn:
-          "The association profile presents the official vision statement, five mission commitments, and three strategic directions.",
-      },
-      {
-        date: "2025-08-30",
-        href: "bylaws.html",
-        categoryTh: "ธรรมาภิบาล",
-        categoryEn: "Governance",
-        titleTh: "เผยแพร่ข้อบังคับสมาคม",
-        titleEn: "Association Bylaws Published",
-        copyTh: `เผยแพร่ข้อบังคับสมาคม ${source.pages.bylaws.sections.length} หมวด ครอบคลุมสมาชิก การประชุม และการบริหารจัดการสมาคม`,
-        copyEn: `The published bylaws cover ${source.pages.bylaws.sections.length} sections including membership, general meetings, amendments, and financial controls.`,
+          "A three-hour workshop on using AI to turn investment ideas into working backtests, scheduled for June 13, 2026 from 9:00 AM to 12:00 PM at Starbucks, Mahidol University Phayathai, with registration via LINE OA.",
+        timeTh: "9:00 - 12:00 น.",
+        timeEn: "9:00 AM - 12:00 PM",
+        locationTh: "Starbucks ม.มหิดล พญาไท",
+        locationEn: "Starbucks, Mahidol University Phayathai",
       },
     ];
 
@@ -670,17 +645,20 @@
           title: "กิจกรรม",
           subtitle: source.site.titleEn,
           body:
-            "รวบรวมกิจกรรมและความเคลื่อนไหวล่าสุดของสมาคมจากข้อมูลสาธารณะที่เผยแพร่บนเว็บไซต์",
+            "รวบรวมโพสต์กิจกรรมสาธารณะจาก Facebook ของ QuantCorner โดยคัดเฉพาะรายการที่เป็นอีเวนต์หรือเวิร์กช็อป",
           panelTitle: "ภาพรวมกิจกรรมล่าสุด",
           panelBody:
-            "แสดงกิจกรรมและการอัปเดตล่าสุดของสมาคมตามวันที่เผยแพร่บนเว็บไซต์สาธารณะของ TQF",
+            "แสดงเฉพาะกิจกรรมที่เป็นอีเวนต์จากโพสต์สาธารณะของ QuantCorner บน Facebook",
           imageAlt: "ภาพประกอบกิจกรรมของสมาคม TQF",
           items: activities.map((item) => ({
             date: item.date,
             href: item.href,
+            imageSrc: item.imageSrc,
             category: item.categoryTh,
             title: item.titleTh,
             copy: item.copyTh,
+            time: item.timeTh,
+            location: item.locationTh,
           })),
         },
         en: {
@@ -688,17 +666,20 @@
           title: "Activities",
           subtitle: source.site.titleEn,
           body:
-            "A record of recent association activity and public updates available on the TQF website.",
+            "A curated list of public event posts shared through the QuantCorner Facebook page.",
           panelTitle: "Latest activity overview",
           panelBody:
-            "This page highlights recent association activity based on the dates of the latest public updates on the TQF website.",
+            "This page highlights public event announcements shared through the QuantCorner Facebook page.",
           imageAlt: "TQF association activities visual",
           items: activities.map((item) => ({
             date: item.date,
             href: item.href,
+            imageSrc: item.imageSrc,
             category: item.categoryEn,
             title: item.titleEn,
             copy: item.copyEn,
+            time: item.timeEn,
+            location: item.locationEn,
           })),
         },
       },
@@ -1000,10 +981,12 @@
           panelTitle: "โครงสร้างคณะกรรมการ",
           panelBody:
             "ข้อมูลรายชื่อ ตำแหน่ง และคุณวุฒิด้านล่างอ้างอิงจากหน้าคณะกรรมการของเว็บไซต์ TQF โดยตรง",
-          members: source.pages.team.members.map((member) => ({
+          members: source.pages.team.members.map((member, index) => ({
             name: member.name,
             role: member.role,
             qualifications: member.qualifications,
+            initials: member.initials,
+            imageSrc: teamMemberImagesByIndex[index] || "",
           })),
         },
         en: {
@@ -1015,10 +998,12 @@
           panelTitle: "Committee Structure",
           panelBody:
             "The committee directory is available in both Thai and English.",
-          members: source.pages.team.members.map((member) => ({
+          members: source.pages.team.members.map((member, index) => ({
             name: member.name,
             role: teamRoleEn[member.role] || member.role,
             qualifications: member.qualifications,
+            initials: member.initials,
+            imageSrc: teamMemberImagesByIndex[index] || "",
           })),
         },
       },
@@ -1390,12 +1375,15 @@
         ],
       })}
 
-      ${renderStats([
-        [langUi.officialPages, pad(navItems.length)],
-        [langUi.committeeMembers, pad(source.pages.team.members.length)],
-        [langUi.bylawSections, pad(source.pages.bylaws.sections.length)],
-        [langUi.pathwayModules, pad(quantModules.length)],
-      ])}
+      <section class="section">
+        ${renderSectionHeading(page.recentTitle, page.recentTitle, page.recentCopy)}
+        <div class="activity-grid activity-grid-featured">
+          ${content.activities[state.lang].items
+            .slice(0, 3)
+            .map((item, index) => renderFeaturedActivityCard(item, index))
+            .join("")}
+        </div>
+      </section>
 
       <section class="section">
         ${renderSectionHeading(langUi.siteMap, langUi.siteMapTitle, langUi.siteMapCopy)}
@@ -1416,16 +1404,6 @@
                 </a>
               `,
             )
-            .join("")}
-        </div>
-      </section>
-
-      <section class="section">
-        ${renderSectionHeading(page.recentTitle, page.recentTitle, page.recentCopy)}
-        <div class="activity-grid">
-          ${content.activities[state.lang].items
-            .slice(0, 3)
-            .map((item, index) => renderActivityCard(item, index))
             .join("")}
         </div>
       </section>
@@ -1475,6 +1453,7 @@
         body: page.body,
         panelTitle: page.panelTitle,
         panelBody: page.panelBody,
+        imageSrc: "assets/hero-activities-quant.png",
         meta: [
           [state.lang === "th" ? "รายการกิจกรรม" : "Activity items", pad(page.items.length)],
           [state.lang === "th" ? "กิจกรรมล่าสุด" : "Latest activity", formatDate(page.items[0].date)],
@@ -1484,14 +1463,14 @@
 
       <section class="section">
         ${renderSectionHeading(
-          state.lang === "th" ? "กิจกรรมล่าสุด" : "Recent Activity",
-          state.lang === "th" ? "กิจกรรมและความเคลื่อนไหวของสมาคม" : "Association activity and updates",
+          state.lang === "th" ? "รายการกิจกรรม" : "Event Archive",
+          state.lang === "th" ? "กิจกรรมที่ผ่านมาและรายการอีเวนต์" : "Past events and published event items",
           state.lang === "th"
-            ? "รวบรวมความเคลื่อนไหวล่าสุดของสมาคมในรูปแบบที่อ่านง่ายและเข้าถึงได้จากหน้าเดียว"
-            : "Recent association activity is collected here in a clear, accessible single-page format.",
+            ? "หน้ากิจกรรมรวบรวมรายการอีเวนต์ในรูปแบบลิสต์ เพื่อให้ค้นหาวันที่ เวลา และสถานที่ได้สะดวก"
+            : "This page keeps event items in a clean list format so date, time, and location can be reviewed quickly.",
         )}
-        <div class="activity-grid activity-grid-archive">
-          ${page.items.map((item, index) => renderActivityCard(item, index)).join("")}
+        <div class="activity-list">
+          ${page.items.map((item, index) => renderActivityArchiveItem(item, index)).join("")}
         </div>
       </section>
     `;
@@ -2030,9 +2009,12 @@
     `;
   }
 
-  function renderActivityCard(item, index) {
+  function renderFeaturedActivityCard(item, index) {
     return `
-      <a class="activity-card" href="${item.href}" data-reveal style="--delay: ${index * 70}ms">
+      <a class="activity-card activity-card-featured" href="${item.href}" data-reveal style="--delay: ${index * 70}ms">
+        <div class="activity-image-frame">
+          <img src="${item.imageSrc || heroImagePlaceholder}" alt="${escapeHtml(item.title)}" class="activity-image">
+        </div>
         <div class="activity-meta">
           <span class="card-kicker">${escapeHtml(item.category)}</span>
           <span class="activity-date">${escapeHtml(formatDate(item.date))}</span>
@@ -2041,37 +2023,83 @@
           <h3 class="card-title">${escapeHtml(item.title)}</h3>
           <p class="card-copy">${escapeHtml(item.copy)}</p>
         </div>
-        <div class="link-card-footer">
-          <span>${escapeHtml(ui[state.lang].openPage)}</span>
-          <span>→</span>
+        <div class="activity-footer">
+          ${renderActivityMetaPill("time", item.time)}
+          ${renderActivityMetaPill("map", item.location)}
         </div>
       </a>
     `;
   }
 
-  function renderStats(items) {
+  function renderActivityArchiveItem(item, index) {
     return `
-      <section class="section">
-        <div class="stats-grid">
-          ${items
-            .map(
-              ([label, value], index) => `
-                <article class="stat-card" data-reveal style="--delay: ${index * 60}ms">
-                  <span class="stat-label">${escapeHtml(label)}</span>
-                  <strong class="stat-value">${escapeHtml(value)}</strong>
-                </article>
-              `,
-            )
-            .join("")}
+      <a class="activity-card activity-card-archive" href="${item.href}" data-reveal style="--delay: ${index * 70}ms">
+        <div class="activity-archive-main">
+          <div class="activity-meta">
+            <span class="card-kicker">${escapeHtml(item.category)}</span>
+            <span class="activity-date">${escapeHtml(formatDate(item.date))}</span>
+          </div>
+          <div class="activity-body">
+            <h3 class="card-title">${escapeHtml(item.title)}</h3>
+            <p class="card-copy">${escapeHtml(item.copy)}</p>
+          </div>
         </div>
-      </section>
+        <div class="activity-archive-side">
+          <div class="activity-footer">
+            ${renderActivityMetaPill("time", item.time)}
+            ${renderActivityMetaPill("map", item.location)}
+          </div>
+          <div class="link-card-footer">
+            <span>${escapeHtml(ui[state.lang].openPage)}</span>
+            <span>→</span>
+          </div>
+        </div>
+      </a>
+    `;
+  }
+
+  function renderActivityMetaPill(type, value) {
+    if (!value) {
+      return "";
+    }
+
+    return `
+      <span class="activity-info-pill">
+        <span class="activity-info-icon" aria-hidden="true">${type === "time" ? timeIcon() : mapPinIcon()}</span>
+        <span>${escapeHtml(value)}</span>
+      </span>
+    `;
+  }
+
+  function timeIcon() {
+    return `
+      <svg viewBox="0 0 24 24" focusable="false">
+        <circle cx="12" cy="12" r="8.5"></circle>
+        <path d="M12 7.5v5l3.2 2"></path>
+      </svg>
+    `;
+  }
+
+  function mapPinIcon() {
+    return `
+      <svg viewBox="0 0 24 24" focusable="false">
+        <path d="M12 20c3.7-4.4 5.5-7.3 5.5-10a5.5 5.5 0 1 0-11 0c0 2.7 1.8 5.6 5.5 10Z"></path>
+        <circle cx="12" cy="10" r="2.1"></circle>
+      </svg>
     `;
   }
 
   function renderMemberCard(member, index) {
+    const visual = member.imageSrc
+      ? `<img src="${member.imageSrc}" alt="${escapeHtml(member.name)}" class="member-photo">`
+      : `<div class="member-avatar-placeholder">${escapeHtml(member.initials || pad(index + 1))}</div>`;
+
     return `
       <article class="member-card" data-reveal style="--delay: ${(index % 3) * 70}ms">
-        <span class="member-index">${pad(index + 1)}</span>
+        <div class="member-media">
+          ${visual}
+          <span class="member-index">${pad(index + 1)}</span>
+        </div>
         <div class="member-role">${escapeHtml(member.role)}</div>
         <h3 class="member-name">${escapeHtml(member.name)}</h3>
         <p class="member-meta">
