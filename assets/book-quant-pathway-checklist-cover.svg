@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">TQF Quant Pathway Study Checklist cover</title>
+  <desc id="desc">Formal book cover for the TQF Quant Pathway Study Checklist.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f6f1"/>
+      <stop offset="100%" stop-color="#efe7d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg2)"/>
+  <rect x="54" y="54" width="792" height="1092" rx="36" fill="#ffffff" stroke="#ddd3c2"/>
+  <rect x="96" y="96" width="708" height="16" rx="8" fill="#12395f"/>
+  <rect x="96" y="132" width="180" height="8" rx="4" fill="#c39b52"/>
+  <text x="96" y="220" fill="#7a6e58" font-family="'Segoe UI', Arial, sans-serif" font-size="34" letter-spacing="8">TQF ACADEMIC SERIES</text>
+  <text x="96" y="348" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700">Study</text>
+  <text x="96" y="436" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700">Checklist</text>
+  <text x="96" y="528" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="600">Quant Pathway</text>
+  <text x="96" y="610" fill="#4c5d73" font-family="'Segoe UI', Arial, sans-serif" font-size="28">A compact review list for planning and tracking</text>
+  <text x="96" y="652" fill="#4c5d73" font-family="'Segoe UI', Arial, sans-serif" font-size="28">your quantitative finance learning journey</text>
+  <rect x="96" y="734" width="612" height="276" rx="28" fill="#fbfaf6" stroke="#ddd3c2"/>
+  <g fill="none" stroke="#12395f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="140" y="804" width="34" height="34" rx="4"/>
+    <path d="M148 821l8 8 14-18"/>
+    <rect x="140" y="872" width="34" height="34" rx="4"/>
+    <path d="M148 889l8 8 14-18"/>
+    <rect x="140" y="940" width="34" height="34" rx="4"/>
+  </g>
+  <text x="202" y="829" fill="#3b4a5e" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Foundational and core topic review</text>
+  <text x="202" y="897" fill="#3b4a5e" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Specialized pathway tracking</text>
+  <text x="202" y="965" fill="#3b4a5e" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Self-study planning worksheet</text>
+  <text x="96" y="1078" fill="#7a6e58" font-family="'Segoe UI', Arial, sans-serif" font-size="30">Thai Association of Quantitative Analysts and Financial Engineers</text>
+  <text x="96" y="1120" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700">TQF</text>
+</svg>

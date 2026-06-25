@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">TQF Magazine Feature Activity Highlights cover</title>
+  <desc id="desc">Formal magazine-style cover for TQF activity highlights.</desc>
+  <defs>
+    <linearGradient id="magBg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f8fb"/>
+      <stop offset="100%" stop-color="#e9eef5"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#magBg1)"/>
+  <rect x="58" y="58" width="784" height="1084" rx="28" fill="#ffffff" stroke="#d6deea"/>
+  <rect x="102" y="96" width="696" height="18" rx="9" fill="#12395f"/>
+  <rect x="102" y="134" width="168" height="8" rx="4" fill="#c39b52"/>
+  <text x="102" y="218" fill="#6a7a8d" font-family="'Segoe UI', Arial, sans-serif" font-size="34" letter-spacing="7">TQF MAGAZINE FEATURE</text>
+  <text x="102" y="348" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700">Activity</text>
+  <text x="102" y="430" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700">Highlights</text>
+  <text x="102" y="522" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="50" font-weight="600">Events and Community</text>
+  <text x="102" y="604" fill="#4e5f74" font-family="'Segoe UI', Arial, sans-serif" font-size="28">Selected event coverage from association activities,</text>
+  <text x="102" y="646" fill="#4e5f74" font-family="'Segoe UI', Arial, sans-serif" font-size="28">member engagement, and professional outreach.</text>
+  <rect x="102" y="734" width="610" height="236" rx="24" fill="#f4f7fb" stroke="#d6deea"/>
+  <circle cx="162" cy="812" r="18" fill="#12395f"/>
+  <circle cx="162" cy="882" r="18" fill="#c39b52"/>
+  <circle cx="162" cy="952" r="18" fill="#12395f"/>
+  <text x="204" y="820" fill="#3d4e63" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Event recaps with dates and locations</text>
+  <text x="204" y="890" fill="#3d4e63" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Featured sessions and member participation</text>
+  <text x="204" y="960" fill="#3d4e63" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Highlights aligned with TQF’s formal record</text>
+  <text x="102" y="1078" fill="#6a7a8d" font-family="'Segoe UI', Arial, sans-serif" font-size="30">Thai Association of Quantitative Analysts and Financial Engineers</text>
+  <text x="102" y="1120" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700">TQF</text>
+</svg>

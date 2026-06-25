@@ -40,7 +40,7 @@ window.TQF_CONTENT = {
     },
     {
       "slug": "quant-pathway",
-      "labelTh": "Quant Pathway",
+      "labelTh": "เส้นทาง Quant",
       "labelEn": "Quant Pathway",
       "href": "quant-pathway.html",
       "source": "https://www.tqf.or.th/quant-pathway"

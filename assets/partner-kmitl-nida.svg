@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" role="img" aria-labelledby="title">
+  <title>KMITL-NIDA Financial Engineering</title>
+  <rect width="480" height="120" fill="#ffffff"/>
+  <text x="28" y="52" fill="#1f3f6b" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">KMITL-NIDA</text>
+  <text x="28" y="88" fill="#5f6f82" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600">Financial Engineering</text>
+  <rect x="338" y="26" width="114" height="42" rx="21" fill="#c39b52"/>
+  <text x="361" y="53" fill="#ffffff" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700">FE</text>
+</svg>

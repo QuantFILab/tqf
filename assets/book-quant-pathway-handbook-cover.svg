@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">TQF Quant Pathway Handbook cover</title>
+  <desc id="desc">Formal book cover for the TQF Quant Pathway Handbook.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6f8fb"/>
+      <stop offset="100%" stop-color="#e8eef6"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect x="54" y="54" width="792" height="1092" rx="36" fill="#ffffff" stroke="#d6dfeb"/>
+  <rect x="96" y="96" width="708" height="16" rx="8" fill="#12395f"/>
+  <rect x="96" y="132" width="220" height="8" rx="4" fill="#c39b52"/>
+  <text x="96" y="220" fill="#6b7a8d" font-family="'Segoe UI', Arial, sans-serif" font-size="34" letter-spacing="8">TQF ACADEMIC SERIES</text>
+  <text x="96" y="360" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700">Quant</text>
+  <text x="96" y="452" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700">Pathway</text>
+  <text x="96" y="544" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="600">Handbook</text>
+  <text x="96" y="632" fill="#4c5d73" font-family="'Segoe UI', Arial, sans-serif" font-size="28">Foundational, core, and specialized knowledge</text>
+  <text x="96" y="674" fill="#4c5d73" font-family="'Segoe UI', Arial, sans-serif" font-size="28">for quantitative finance and financial engineering</text>
+  <rect x="96" y="742" width="612" height="232" rx="28" fill="#f4f7fb" stroke="#d6dfeb"/>
+  <text x="136" y="810" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700">Included in this volume</text>
+  <text x="136" y="870" fill="#3b4a5e" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Finance, mathematics, programming</text>
+  <text x="136" y="914" fill="#3b4a5e" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Asset modeling, risk, machine learning</text>
+  <text x="136" y="958" fill="#3b4a5e" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Portfolio, trading, derivatives, regulation</text>
+  <text x="96" y="1078" fill="#6b7a8d" font-family="'Segoe UI', Arial, sans-serif" font-size="30">Thai Association of Quantitative Analysts and Financial Engineers</text>
+  <text x="96" y="1120" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700">TQF</text>
+</svg>

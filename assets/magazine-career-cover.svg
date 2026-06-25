@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">TQF Magazine Feature Career and Learning cover</title>
+  <desc id="desc">Formal magazine-style cover for TQF career and learning content.</desc>
+  <defs>
+    <linearGradient id="magBg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f5ef"/>
+      <stop offset="100%" stop-color="#eee3d1"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#magBg2)"/>
+  <rect x="58" y="58" width="784" height="1084" rx="28" fill="#ffffff" stroke="#ddd2bf"/>
+  <rect x="102" y="96" width="696" height="18" rx="9" fill="#12395f"/>
+  <rect x="102" y="134" width="168" height="8" rx="4" fill="#c39b52"/>
+  <text x="102" y="218" fill="#7c705d" font-family="'Segoe UI', Arial, sans-serif" font-size="34" letter-spacing="7">TQF MAGAZINE FEATURE</text>
+  <text x="102" y="336" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="700">Career and</text>
+  <text x="102" y="418" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="700">Learning</text>
+  <text x="102" y="510" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="50" font-weight="600">Professional Pathways</text>
+  <text x="102" y="592" fill="#4e5f74" font-family="'Segoe UI', Arial, sans-serif" font-size="28">A guided feature on skill development, quantitative</text>
+  <text x="102" y="634" fill="#4e5f74" font-family="'Segoe UI', Arial, sans-serif" font-size="28">roles, and learning directions supported by TQF.</text>
+  <rect x="102" y="732" width="610" height="258" rx="24" fill="#fbfaf6" stroke="#ddd2bf"/>
+  <path d="M160 948h424" fill="none" stroke="#12395f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M182 904l78-70 92 42 114-98 94 62" fill="none" stroke="#c39b52" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="182" cy="904" r="12" fill="#12395f"/>
+  <circle cx="260" cy="834" r="12" fill="#12395f"/>
+  <circle cx="352" cy="876" r="12" fill="#12395f"/>
+  <circle cx="466" cy="778" r="12" fill="#12395f"/>
+  <circle cx="560" cy="840" r="12" fill="#12395f"/>
+  <text x="142" y="812" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700">Learning pathway snapshot</text>
+  <text x="102" y="1078" fill="#7c705d" font-family="'Segoe UI', Arial, sans-serif" font-size="30">Thai Association of Quantitative Analysts and Financial Engineers</text>
+  <text x="102" y="1120" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700">TQF</text>
+</svg>

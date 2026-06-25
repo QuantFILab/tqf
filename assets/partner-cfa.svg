@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-labelledby="title">
+  <title>CFA Institute</title>
+  <rect width="420" height="120" fill="#ffffff"/>
+  <text x="28" y="54" fill="#1f3f6b" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">CFA</text>
+  <text x="130" y="54" fill="#1f3f6b" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700">Institute</text>
+  <line x1="28" y1="74" x2="392" y2="74" stroke="#c39b52" stroke-width="3"/>
+  <text x="28" y="98" fill="#5f6f82" font-family="'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="2">INVESTMENT PROFESSIONAL BODY</text>
+</svg>

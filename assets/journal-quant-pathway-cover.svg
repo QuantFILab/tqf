@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">TQF Journal Brief Quant Pathway Framework cover</title>
+  <desc id="desc">Formal journal-style cover for the TQF analytical brief on the Quant Pathway Framework.</desc>
+  <defs>
+    <linearGradient id="journalBg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f8fc"/>
+      <stop offset="100%" stop-color="#e8eef6"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#journalBg1)"/>
+  <rect x="58" y="58" width="784" height="1084" rx="28" fill="#ffffff" stroke="#d5dfeb"/>
+  <rect x="102" y="96" width="696" height="18" rx="9" fill="#12395f"/>
+  <rect x="102" y="134" width="164" height="8" rx="4" fill="#c39b52"/>
+  <text x="102" y="218" fill="#6a7a8d" font-family="'Segoe UI', Arial, sans-serif" font-size="34" letter-spacing="7">TQF JOURNAL BRIEF</text>
+  <text x="102" y="348" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700">Quant Pathway</text>
+  <text x="102" y="430" fill="#12395f" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700">Framework</text>
+  <text x="102" y="522" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="50" font-weight="600">Analytical Brief</text>
+  <text x="102" y="604" fill="#4e5f74" font-family="'Segoe UI', Arial, sans-serif" font-size="28">A structured overview of learning domains, topic flow,</text>
+  <text x="102" y="646" fill="#4e5f74" font-family="'Segoe UI', Arial, sans-serif" font-size="28">and professional preparation for quantitative finance.</text>
+  <rect x="102" y="736" width="610" height="224" rx="24" fill="#f4f7fb" stroke="#d5dfeb"/>
+  <text x="142" y="804" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700">Focus areas</text>
+  <text x="142" y="864" fill="#3d4e63" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Foundational knowledge and prerequisite alignment</text>
+  <text x="142" y="908" fill="#3d4e63" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Core quantitative finance and modeling capabilities</text>
+  <text x="142" y="952" fill="#3d4e63" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Advanced pathways for risk, trading, and research</text>
+  <text x="102" y="1078" fill="#6a7a8d" font-family="'Segoe UI', Arial, sans-serif" font-size="30">Thai Association of Quantitative Analysts and Financial Engineers</text>
+  <text x="102" y="1120" fill="#12395f" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700">TQF</text>
+</svg>
